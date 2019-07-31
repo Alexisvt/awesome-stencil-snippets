@@ -2,13 +2,14 @@
   "Stencil component": {
     "prefix": "s-comp",
     "body": [
-      "import { Component, h } from '@stencil/core';",
+      "import { h, Component } from '@stencil/core';",
       "",
       "",
       "@Component({",
       "  tag: '${1:$TM_FILENAME_BASE}',",
+      "  styleUrl: '${1:$TM_FILENAME_BASE}.css',",
       "})",
-      "export class ${2:${TM_FILENAME_BASE/(\\\\w+)?[-_\\\\s]+(\\\\w+)/${1:/capitalize}${2:/capitalize}/g}} {",
+      "export class ${2:${TM_FILENAME_BASE/(\\w+)?[-_\\s]+(\\w+)/${1:/capitalize}${2:/capitalize}/g}} {",
       "  render() {",
       "    return (",
       "      ${0}",
