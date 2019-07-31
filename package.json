@@ -1,21 +1,25 @@
 {
-    "name": "awesome-stencil-snippets",
-    "displayName": "Awesome Stencil Snippets",
-    "description": "A set of useful snippets for Stencil.js",
-    "version": "0.0.1",
-    "publisher": "alexisvt",
-    "engines": {
-        "vscode": "^1.36.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "typescript",
-                "path": "./snippets/snippets.json"
-            }
-        ]
-    }
+  "name": "awesome-stencil-snippets",
+  "displayName": "Awesome Stencil Snippets",
+  "description": "A set of helpful snippets for Stencil.js",
+  "version": "0.0.1",
+  "publisher": "alexisvt",
+  "engines": {
+    "vscode": "^1.36.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alexisvt/awesome-stencil-snippets"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
 }
