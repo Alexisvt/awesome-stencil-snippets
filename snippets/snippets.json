@@ -1,0 +1,22 @@
+{
+  "Stencil component": {
+    "prefix": "s-comp",
+    "body": [
+      "import { Component, h } from '@stencil/core';",
+      "",
+      "",
+      "@Component({",
+      "  tag: '${1:$TM_FILENAME_BASE}',",
+      "})",
+      "export class ${2:${TM_FILENAME_BASE/(\\\\w+)?[-_\\\\s]+(\\\\w+)/${1:/capitalize}${2:/capitalize}/g}} {",
+      "  render() {",
+      "    return (",
+      "      ${0}",
+      "    );",
+      "  }",
+      "}",
+      ""
+    ],
+    "description": "Stencil component"
+  }
+}
