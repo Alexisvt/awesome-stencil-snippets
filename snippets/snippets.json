@@ -20,9 +20,14 @@
     ],
     "description": "Stencil component"
   },
-  "Stencil property": {
+  "Stencil @Prop decorator": {
     "prefix": ["s-prop", "prop"],
     "body": ["@Prop() ${1:newProp}: ${2|any,string,number,boolean|};"],
-    "description": "Stencil property"
+    "description": "Stencil @Prop decorator"
+  },
+  "Stencil @State decorator": {
+    "prefix": ["s-state", "state"],
+    "body": ["@State() ${1:newProp}: ${2|any,string,number,boolean|};"],
+    "description": "Stencil @State decorator"
   }
 }
