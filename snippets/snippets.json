@@ -19,5 +19,10 @@
       ""
     ],
     "description": "Stencil component"
+  },
+  "Stencil property": {
+    "prefix": ["s-prop", "prop"],
+    "body": ["@Prop() ${1:newProp}: ${2|any,string,number,boolean|};"],
+    "description": "Stencil property"
   }
 }
