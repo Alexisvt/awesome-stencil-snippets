@@ -10,11 +10,12 @@ I'm working hard to select all the day to day widgets, so wait for more!.
 
 ### Snippets
 
-| Snippet   | Description                       |
-| --------- | --------------------------------- |
-| `s-comp`  | Generates an Stencil.js component |
-| `s-prop`  | Add a component's Prop decorator  |
-| `s-state` | Add a component's State decorator |
+| Snippet   | Description                        |
+| --------- | ---------------------------------- |
+| `s-comp`  | Generates an Stencil.js component  |
+| `s-prop`  | Add a component's Prop decorator   |
+| `s-state` | Add a component's State decorator  |
+| `s-mt`    | Add a component's method decorator |
 
 ## Release Notes
 
