@@ -32,7 +32,7 @@
   },
   "Stencil @Method decorator": {
     "prefix": ["s-mt", "method"],
-    "body": ["@Method()", "${1:method}(${2}) {", "  ${0}", "}"],
+    "body": ["@Method()", "async ${1:method}(${2}) {", "  ${0}", "}"],
     "description": "Stencil @Method decorator"
   }
 }
