@@ -8,6 +8,7 @@
       "@Component({",
       "  tag: '${1:$TM_FILENAME_BASE}',",
       "  styleUrl: '${1:$TM_FILENAME_BASE}.${2|css,scss,sass,less,styl,stylus,pcss|}'",
+      "  shadow: true",
       "})",
       "export class ${3:${TM_FILENAME_BASE/(\\w+)?[-_\\s]+(\\w+)/${1:/capitalize}${2:/capitalize}/g}} {",
       "  render() {",
@@ -34,5 +35,10 @@
     "prefix": ["s-mt", "method"],
     "body": ["@Method()", "async ${1:method}(${2}) {", "  ${0}", "}"],
     "description": "Stencil @Method decorator"
+  },
+  "Stencil @Element decorator": {
+    "prefix": ["s-el", "element"],
+    "body": ["@Element() ${1:element}: HTMLElement;${0}"],
+    "description": "Stencil @Element decorator"
   }
 }
