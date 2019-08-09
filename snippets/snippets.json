@@ -40,5 +40,10 @@
     "prefix": ["s-el", "element"],
     "body": ["@Element() ${1:element}: HTMLElement;${0}"],
     "description": "Stencil @Element decorator"
+  },
+  "Stencil componentDidLoad lifecycle method": {
+    "prefix": ["st-dload", "load"],
+    "body": ["componentDidLoad() {", " ${0}", "}"],
+    "description": "Stencil componentDidLoad lifecycle method"
   }
 }
